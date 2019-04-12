@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Mcare | Book tid</title>
+  <meta name="description" content="Mcare | Book en tid, og få reperaret din telefon på din egen adresse">
+  <meta name="keywords" content="Mcare, udkørsel, reperation, mobiler, mobiltelefoner, telefoner, tablets, ipads, book, booking, book">
+</head>
+
+<body>
+  <main>
+    <section class="menu">
+      <section class="logo"><a href="index.html"><img src="img/logo_white.svg" alt="Mcare logo" /></a></section>
+    </section>
+
+    <article class="booking">
+      <section class="formular">
+        <form action="/action_page.php">
+          <label for="fnavn">Fornavn</label>
+          <input type="text" id="fnavn" name="fornavn" placeholder="Dit navn..">
+
+          <label for="enavn">Efternavn</label>
+          <input type="text" id="lnavn" name="efternavn" placeholder="Dit efternavn..">
+
+          <label for="adresse">Adresse</label>
+          <input type="text" id="adresse" name="adresse" placeholder="Din adresse..">
+
+          <label for="lname">Telefonnummer</label>
+          <input type="text" id="tlf" name="telefonnummer" placeholder="Dit telefonnummer..">
+
+          <label for="producent">Producent</label>
+          <select id="producent" name="producent">
+            <option value="Asus">Asus</option>
+            <option value="Apple">Apple</option>
+            <option value="HTC">HTC</option>
+            <option value="Huwaei">Huawei</option>
+            <option value="LG">LG</option>
+            <option value="Nokia">Nokia</option>
+            <option value="OnePlus">OnePlus</option>
+            <option value="Razer">Razer</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Sony">Sony</option>
+          </select>
+
+          <label for="enhed">Enhed</label>
+          <select id="enhed" name="enhed">
+            <option value="telefon">Telefon</option>
+            <option value="tablet">Tablet</option>
+          </select>
+
+          <label for="reperation">Reperation</label>
+          <select id="reperation" name="reperation">
+            <option value="Front-Kamera&nærhedssensor">Front kamera & nærhedssensor</option>
+            <option value="Ørehøjtaler">Ørehøjtaler</option>
+            <option value="BagKamera">Bag Kamera</option>
+            <option value="HomeKnap">Home Knap</option>
+            <option value="Jackstick">Jackstick</option>
+            <option value="Tænd/sluk-ogVolumenknap">Tænd/sluk-og volumenknap</option>
+            <option value="Højttaler">Højttaler</option>
+            <option value="Batteri">Batteri</option>
+            <option value="UsdkiftningAfSkærm">Udskiftning Af Skærm</option>
+            <option value="MikrofonOgLadestik">Mikrofon Og Ladestik</option>
+            <option value="Andet">Andet</option>
+          </select>
+
+          <label class="container">
+            <p><strong>Vi kommer til dig</strong> - Vores reperatør vil ringe en time inden mulig reperation og vil her aftale et tidspunkt der passer med dig. Vær opmærksom på ekstra udgifter ved udkørsel. <a href="#">Læs mere her</a></p>
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container">
+            <p><strong>Jeg tager selv ned i butikken</strong> - Du kommer selv ned i butikken med din enhed og får den repareret.</p>
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+
+          <input type="submit" value="Book reperation">
+        </form>
+      </section>
+
+    </article>
+
+  </main>
+
+</body>
+
+</html>
